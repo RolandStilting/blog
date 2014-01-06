@@ -21,6 +21,14 @@
     </p>
 
     <p>
+      <%= f.label :postdate %><br>
+      <%= f.text_field :postdate, :id => "datepicker", :value => Date.today%>
+    </p>
+
+    <p>
       <%= f.submit %>
     </p>
+    <script>
+    $('#datepicker').datepicker({format: 'yyyy-mm-dd'});
+    </script>
 <% end %>

@@ -34,6 +34,8 @@ end
 
 gem 'bootstrap-sass'
 
+gem 'bootstrap-datepicker-rails'
+
 group :development do
   gem 'rails_layout'
 end
