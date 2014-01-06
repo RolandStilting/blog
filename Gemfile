@@ -38,8 +38,8 @@ gem 'bootstrap-datepicker-rails'
 
 group :development do
   gem 'rails_layout'
+  gem 'mysql2'
 end
-
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
