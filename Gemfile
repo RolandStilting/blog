@@ -36,6 +36,8 @@ gem 'bootstrap-sass'
 
 gem 'bootstrap-datepicker-rails'
 
+gem 'highrise'
+
 group :development do
   gem 'rails_layout'
   gem 'mysql2'
